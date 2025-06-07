@@ -1,0 +1,36 @@
+.barranavegacion {
+  display: flex;
+  flex-wrap: ;
+
+  justify-content: space-between;
+}
+.favoritos {
+  order: 7;
+}
+.carrito {
+  order: 8;
+}
+.menu {
+  order: 1;
+}
+.perfil {
+  order: 6;
+}
+
+.modahombre {
+  font-size: 14px;
+  order: 3;
+}
+.modamujer {
+  font-size: 14px;
+  order: 2;
+}
+.nuevacoleccion {
+  font-size: 14px;
+  order: 4;
+}
+
+.colespec {
+  font-size: 14px;
+  order: 5;
+}
