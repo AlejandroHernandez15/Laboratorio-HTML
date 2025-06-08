@@ -1,6 +1,6 @@
 .barranavegacion {
   display: flex;
-  flex-wrap: ;
+  font-size: 16px;
 
   justify-content: space-between;
 }
@@ -33,4 +33,33 @@
 .colespec {
   font-size: 14px;
   order: 5;
+}
+
+.infoarticulo {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+
+  justify-items: center;
+}
+.producto {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: auto;
+  padding: 16px;
+  background-color: dimgrey;
+}
+.entrega {
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  border-radius: 20px;
 }
