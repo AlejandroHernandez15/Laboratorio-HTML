@@ -1,8 +1,22 @@
+.contenedor {
+  max-width: 1280px;
+  margin: 8px;
+}
+
 .barranavegacion {
   display: flex;
   font-size: 16px;
 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  padding: 15px 20px; /* para darle altura y espacio interior */
   justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
 }
 .favoritos {
   order: 7;
@@ -50,16 +64,61 @@
 
 .footer {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20px;
+  align-items: start;
+  height: 50px;
   width: auto;
-  padding: 16px;
-  background-color: dimgrey;
+  padding: 20px;
+  background-color: #212429;
 }
-.entrega {
-  background-color: white;
-  display: grid;
+.foot {
+  display: flex;
   justify-content: center;
-  border-radius: 20px;
+  flex-wrap: nowrap;
+}
+.entregaicono {
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  width: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+.devolucionesycambios {
+  margin-left: 100px;
+}
+.tlfcontacto {
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  width: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 100px;
+}
+.prefijo {
+  margin-right: 7px;
+}
+.numtlf {
+  align-items: center;
+  display: flex;
+}
+.correo {
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  width: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 100px;
+}
+.direccioncorreo {
+  align-items: center;
+  display: flex;
 }
